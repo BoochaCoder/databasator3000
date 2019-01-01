@@ -10,11 +10,16 @@
 		892BA477218B3EE20020C8B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA476218B3EE20020C8B4 /* AppDelegate.swift */; };
 		892BA479218B3EE20020C8B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA478218B3EE20020C8B4 /* ViewController.swift */; };
 		892BA47C218B3EE20020C8B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892BA47A218B3EE20020C8B4 /* Main.storyboard */; };
-		892BA47F218B3EE20020C8B4 /* Databasator3000.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 892BA47D218B3EE20020C8B4 /* Databasator3000.xcdatamodeld */; };
 		892BA481218B3EE90020C8B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892BA480218B3EE90020C8B4 /* Assets.xcassets */; };
 		892BA484218B3EE90020C8B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892BA482218B3EE90020C8B4 /* LaunchScreen.storyboard */; };
 		892BA48F218B3EE90020C8B4 /* Databasator3000Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA48E218B3EE90020C8B4 /* Databasator3000Tests.swift */; };
 		892BA49A218B3EE90020C8B4 /* Databasator3000UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA499218B3EE90020C8B4 /* Databasator3000UITests.swift */; };
+		892BA4A8218B3F0A0020C8B4 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA4A7218B3F0A0020C8B4 /* CSV.swift */; };
+		892BA4AA218B3F1E0020C8B4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA4A9218B3F1E0020C8B4 /* CoreDataStack.swift */; };
+		892BA4AD218B3F400020C8B4 /* DataBaze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 892BA4AB218B3F400020C8B4 /* DataBaze.xcdatamodeld */; };
+		892BA4B1218B41C90020C8B4 /* matrix.png in Resources */ = {isa = PBXBuildFile; fileRef = 892BA4B0218B41C90020C8B4 /* matrix.png */; };
+		892BA4BB218EEF4E0020C8B4 /* eat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 892BA4BA218EEF4E0020C8B4 /* eat.mp3 */; };
+		89AE620C219AFD9300F98EE7 /* databaze.csv in Resources */ = {isa = PBXBuildFile; fileRef = 89AE620B219AFD9300F98EE7 /* databaze.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		892BA476218B3EE20020C8B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		892BA478218B3EE20020C8B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		892BA47B218B3EE20020C8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		892BA47E218B3EE20020C8B4 /* Databasator3000.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Databasator3000.xcdatamodel; sourceTree = "<group>"; };
 		892BA480218B3EE90020C8B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		892BA483218B3EE90020C8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		892BA485218B3EE90020C8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		892BA495218B3EE90020C8B4 /* Databasator3000UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Databasator3000UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		892BA499218B3EE90020C8B4 /* Databasator3000UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Databasator3000UITests.swift; sourceTree = "<group>"; };
 		892BA49B218B3EE90020C8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892BA4A7218B3F0A0020C8B4 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		892BA4A9218B3F1E0020C8B4 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		892BA4AC218B3F400020C8B4 /* DataFinal280417.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataFinal280417.xcdatamodel; sourceTree = "<group>"; };
+		892BA4B0218B41C90020C8B4 /* matrix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matrix.png; sourceTree = "<group>"; };
+		892BA4BA218EEF4E0020C8B4 /* eat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eat.mp3; sourceTree = "<group>"; };
+		89AE620B219AFD9300F98EE7 /* databaze.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = databaze.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +112,15 @@
 				892BA476218B3EE20020C8B4 /* AppDelegate.swift */,
 				892BA478218B3EE20020C8B4 /* ViewController.swift */,
 				892BA47A218B3EE20020C8B4 /* Main.storyboard */,
+				892BA4A7218B3F0A0020C8B4 /* CSV.swift */,
+				892BA4A9218B3F1E0020C8B4 /* CoreDataStack.swift */,
+				89AE620B219AFD9300F98EE7 /* databaze.csv */,
+				892BA4B0218B41C90020C8B4 /* matrix.png */,
+				892BA4AB218B3F400020C8B4 /* DataBaze.xcdatamodeld */,
+				892BA4BA218EEF4E0020C8B4 /* eat.mp3 */,
 				892BA480218B3EE90020C8B4 /* Assets.xcassets */,
 				892BA482218B3EE90020C8B4 /* LaunchScreen.storyboard */,
 				892BA485218B3EE90020C8B4 /* Info.plist */,
-				892BA47D218B3EE20020C8B4 /* Databasator3000.xcdatamodeld */,
 			);
 			path = Databasator3000;
 			sourceTree = "<group>";
@@ -234,7 +249,10 @@
 			files = (
 				892BA484218B3EE90020C8B4 /* LaunchScreen.storyboard in Resources */,
 				892BA481218B3EE90020C8B4 /* Assets.xcassets in Resources */,
+				89AE620C219AFD9300F98EE7 /* databaze.csv in Resources */,
+				892BA4B1218B41C90020C8B4 /* matrix.png in Resources */,
 				892BA47C218B3EE20020C8B4 /* Main.storyboard in Resources */,
+				892BA4BB218EEF4E0020C8B4 /* eat.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892BA4AA218B3F1E0020C8B4 /* CoreDataStack.swift in Sources */,
+				892BA4AD218B3F400020C8B4 /* DataBaze.xcdatamodeld in Sources */,
+				892BA4A8218B3F0A0020C8B4 /* CSV.swift in Sources */,
 				892BA479218B3EE20020C8B4 /* ViewController.swift in Sources */,
 				892BA477218B3EE20020C8B4 /* AppDelegate.swift in Sources */,
-				892BA47F218B3EE20020C8B4 /* Databasator3000.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,13 +610,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		892BA47D218B3EE20020C8B4 /* Databasator3000.xcdatamodeld */ = {
+		892BA4AB218B3F400020C8B4 /* DataBaze.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				892BA47E218B3EE20020C8B4 /* Databasator3000.xcdatamodel */,
+				892BA4AC218B3F400020C8B4 /* DataFinal280417.xcdatamodel */,
 			);
-			currentVersion = 892BA47E218B3EE20020C8B4 /* Databasator3000.xcdatamodel */;
-			path = Databasator3000.xcdatamodeld;
+			currentVersion = 892BA4AC218B3F400020C8B4 /* DataFinal280417.xcdatamodel */;
+			path = DataBaze.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
