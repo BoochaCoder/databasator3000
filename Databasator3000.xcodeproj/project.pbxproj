@@ -17,8 +17,6 @@
 		892BA4A8218B3F0A0020C8B4 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA4A7218B3F0A0020C8B4 /* CSV.swift */; };
 		892BA4AA218B3F1E0020C8B4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA4A9218B3F1E0020C8B4 /* CoreDataStack.swift */; };
 		892BA4AD218B3F400020C8B4 /* DataBaze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 892BA4AB218B3F400020C8B4 /* DataBaze.xcdatamodeld */; };
-		892BA4B1218B41C90020C8B4 /* matrix.png in Resources */ = {isa = PBXBuildFile; fileRef = 892BA4B0218B41C90020C8B4 /* matrix.png */; };
-		892BA4BB218EEF4E0020C8B4 /* eat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 892BA4BA218EEF4E0020C8B4 /* eat.mp3 */; };
 		89AE620C219AFD9300F98EE7 /* databaze.csv in Resources */ = {isa = PBXBuildFile; fileRef = 89AE620B219AFD9300F98EE7 /* databaze.csv */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +54,6 @@
 		892BA4A7218B3F0A0020C8B4 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
 		892BA4A9218B3F1E0020C8B4 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		892BA4AC218B3F400020C8B4 /* DataFinal280417.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataFinal280417.xcdatamodel; sourceTree = "<group>"; };
-		892BA4B0218B41C90020C8B4 /* matrix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matrix.png; sourceTree = "<group>"; };
-		892BA4BA218EEF4E0020C8B4 /* eat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eat.mp3; sourceTree = "<group>"; };
 		89AE620B219AFD9300F98EE7 /* databaze.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = databaze.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,9 +111,7 @@
 				892BA4A7218B3F0A0020C8B4 /* CSV.swift */,
 				892BA4A9218B3F1E0020C8B4 /* CoreDataStack.swift */,
 				89AE620B219AFD9300F98EE7 /* databaze.csv */,
-				892BA4B0218B41C90020C8B4 /* matrix.png */,
 				892BA4AB218B3F400020C8B4 /* DataBaze.xcdatamodeld */,
-				892BA4BA218EEF4E0020C8B4 /* eat.mp3 */,
 				892BA480218B3EE90020C8B4 /* Assets.xcassets */,
 				892BA482218B3EE90020C8B4 /* LaunchScreen.storyboard */,
 				892BA485218B3EE90020C8B4 /* Info.plist */,
@@ -250,9 +244,7 @@
 				892BA484218B3EE90020C8B4 /* LaunchScreen.storyboard in Resources */,
 				892BA481218B3EE90020C8B4 /* Assets.xcassets in Resources */,
 				89AE620C219AFD9300F98EE7 /* databaze.csv in Resources */,
-				892BA4B1218B41C90020C8B4 /* matrix.png in Resources */,
 				892BA47C218B3EE20020C8B4 /* Main.storyboard in Resources */,
-				892BA4BB218EEF4E0020C8B4 /* eat.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

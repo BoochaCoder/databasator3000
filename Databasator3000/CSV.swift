@@ -1,6 +1,8 @@
 import Foundation
 
 open class CSV {
+    // CSV parser.
+    
     open var headers: [String] = []
     open var rows: [Dictionary<String, String>] = []
     open var columns = Dictionary<String, [String]>()
@@ -22,7 +24,7 @@ open class CSV {
     }
     
     public convenience init(contentsOfURL url: String) throws {
-        //na tento init se odkazuju externe jako csv((contentsOfURL: path!), path musim vytvorit a zadat tam cestu k csv souboru
+        //  Na tento init se odkazuju externe jako csv((contentsOfURL: path!), path musim vytvorit a zadat tam cestu k csv souboru.
         let comma = CharacterSet(charactersIn: ",")
         let csvString: String?
         do {
@@ -48,7 +50,7 @@ open class CSV {
             
             var row = Dictionary<String, String>()
             let values = line.components(separatedBy: self.delimiter)
-            //tady rozpojí metodou components každou lajnu delimeterem = středník
+            //  Tady rozpojí metodou components každou lajnu delimeterem = středník
             
             for (index, header) in self.headers.enumerated() {
                 

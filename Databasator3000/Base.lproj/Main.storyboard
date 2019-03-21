@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,11 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="matrix.png" translatesAutoresizingMaskIntoConstraints="NO" id="79t-ve-Aie">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPo-1I-ZTv">
-                                <rect key="frame" x="64.5" y="301" width="246" height="64"/>
+                                <rect key="frame" x="64.5" y="301.5" width="246" height="64"/>
                                 <color key="backgroundColor" red="0.36878359319999998" green="0.77074664829999995" blue="0.28614196180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="43"/>
                                 <state key="normal" title="Fill the DTBS">
@@ -35,12 +32,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="79t-ve-Aie" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="16f-zm-kA1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="79t-ve-Aie" secondAttribute="trailing" id="54m-Ls-LKg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="79t-ve-Aie" secondAttribute="bottom" id="Jnt-LO-z6L"/>
                             <constraint firstItem="bPo-1I-ZTv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XdI-vh-wNY"/>
                             <constraint firstItem="bPo-1I-ZTv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eeu-nx-6cm"/>
-                            <constraint firstItem="79t-ve-Aie" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-667" id="gJI-i5-RcJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -51,7 +44,4 @@
             <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="matrix.png" width="750" height="1334"/>
-    </resources>
 </document>
