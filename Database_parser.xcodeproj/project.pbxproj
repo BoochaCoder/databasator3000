@@ -12,45 +12,20 @@
 		892BA47C218B3EE20020C8B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892BA47A218B3EE20020C8B4 /* Main.storyboard */; };
 		892BA481218B3EE90020C8B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892BA480218B3EE90020C8B4 /* Assets.xcassets */; };
 		892BA484218B3EE90020C8B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892BA482218B3EE90020C8B4 /* LaunchScreen.storyboard */; };
-		892BA48F218B3EE90020C8B4 /* Databasator3000Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA48E218B3EE90020C8B4 /* Databasator3000Tests.swift */; };
-		892BA49A218B3EE90020C8B4 /* Databasator3000UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA499218B3EE90020C8B4 /* Databasator3000UITests.swift */; };
 		892BA4A8218B3F0A0020C8B4 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA4A7218B3F0A0020C8B4 /* CSV.swift */; };
 		892BA4AA218B3F1E0020C8B4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BA4A9218B3F1E0020C8B4 /* CoreDataStack.swift */; };
 		892BA4AD218B3F400020C8B4 /* DataBaze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 892BA4AB218B3F400020C8B4 /* DataBaze.xcdatamodeld */; };
 		89AE620C219AFD9300F98EE7 /* databaze.csv in Resources */ = {isa = PBXBuildFile; fileRef = 89AE620B219AFD9300F98EE7 /* databaze.csv */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		892BA48B218B3EE90020C8B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 892BA46B218B3EE20020C8B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 892BA472218B3EE20020C8B4;
-			remoteInfo = Databasator3000;
-		};
-		892BA496218B3EE90020C8B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 892BA46B218B3EE20020C8B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 892BA472218B3EE20020C8B4;
-			remoteInfo = Databasator3000;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		892BA473218B3EE20020C8B4 /* Databasator3000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Databasator3000.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		892BA473218B3EE20020C8B4 /* Database_parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Database_parser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		892BA476218B3EE20020C8B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		892BA478218B3EE20020C8B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		892BA47B218B3EE20020C8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		892BA480218B3EE90020C8B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		892BA483218B3EE90020C8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		892BA485218B3EE90020C8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		892BA48A218B3EE90020C8B4 /* Databasator3000Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Databasator3000Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		892BA48E218B3EE90020C8B4 /* Databasator3000Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Databasator3000Tests.swift; sourceTree = "<group>"; };
-		892BA490218B3EE90020C8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		892BA495218B3EE90020C8B4 /* Databasator3000UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Databasator3000UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		892BA499218B3EE90020C8B4 /* Databasator3000UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Databasator3000UITests.swift; sourceTree = "<group>"; };
-		892BA49B218B3EE90020C8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		892BA4A7218B3F0A0020C8B4 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
 		892BA4A9218B3F1E0020C8B4 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		892BA4AC218B3F400020C8B4 /* DataFinal280417.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataFinal280417.xcdatamodel; sourceTree = "<group>"; };
@@ -65,29 +40,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		892BA487218B3EE90020C8B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		892BA492218B3EE90020C8B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		892BA46A218B3EE20020C8B4 = {
 			isa = PBXGroup;
 			children = (
-				892BA475218B3EE20020C8B4 /* Databasator3000 */,
-				892BA48D218B3EE90020C8B4 /* Databasator3000Tests */,
-				892BA498218B3EE90020C8B4 /* Databasator3000UITests */,
+				892BA475218B3EE20020C8B4 /* Database_parser */,
 				892BA474218B3EE20020C8B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,14 +54,12 @@
 		892BA474218B3EE20020C8B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				892BA473218B3EE20020C8B4 /* Databasator3000.app */,
-				892BA48A218B3EE90020C8B4 /* Databasator3000Tests.xctest */,
-				892BA495218B3EE90020C8B4 /* Databasator3000UITests.xctest */,
+				892BA473218B3EE20020C8B4 /* Database_parser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		892BA475218B3EE20020C8B4 /* Databasator3000 */ = {
+		892BA475218B3EE20020C8B4 /* Database_parser */ = {
 			isa = PBXGroup;
 			children = (
 				892BA476218B3EE20020C8B4 /* AppDelegate.swift */,
@@ -116,33 +73,15 @@
 				892BA482218B3EE90020C8B4 /* LaunchScreen.storyboard */,
 				892BA485218B3EE90020C8B4 /* Info.plist */,
 			);
-			path = Databasator3000;
-			sourceTree = "<group>";
-		};
-		892BA48D218B3EE90020C8B4 /* Databasator3000Tests */ = {
-			isa = PBXGroup;
-			children = (
-				892BA48E218B3EE90020C8B4 /* Databasator3000Tests.swift */,
-				892BA490218B3EE90020C8B4 /* Info.plist */,
-			);
-			path = Databasator3000Tests;
-			sourceTree = "<group>";
-		};
-		892BA498218B3EE90020C8B4 /* Databasator3000UITests */ = {
-			isa = PBXGroup;
-			children = (
-				892BA499218B3EE90020C8B4 /* Databasator3000UITests.swift */,
-				892BA49B218B3EE90020C8B4 /* Info.plist */,
-			);
-			path = Databasator3000UITests;
+			path = Database_parser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		892BA472218B3EE20020C8B4 /* Databasator3000 */ = {
+		892BA472218B3EE20020C8B4 /* Database_parser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 892BA49E218B3EE90020C8B4 /* Build configuration list for PBXNativeTarget "Databasator3000" */;
+			buildConfigurationList = 892BA49E218B3EE90020C8B4 /* Build configuration list for PBXNativeTarget "Database_parser" */;
 			buildPhases = (
 				892BA46F218B3EE20020C8B4 /* Sources */,
 				892BA470218B3EE20020C8B4 /* Frameworks */,
@@ -152,46 +91,10 @@
 			);
 			dependencies = (
 			);
-			name = Databasator3000;
+			name = Database_parser;
 			productName = Databasator3000;
-			productReference = 892BA473218B3EE20020C8B4 /* Databasator3000.app */;
+			productReference = 892BA473218B3EE20020C8B4 /* Database_parser.app */;
 			productType = "com.apple.product-type.application";
-		};
-		892BA489218B3EE90020C8B4 /* Databasator3000Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 892BA4A1218B3EE90020C8B4 /* Build configuration list for PBXNativeTarget "Databasator3000Tests" */;
-			buildPhases = (
-				892BA486218B3EE90020C8B4 /* Sources */,
-				892BA487218B3EE90020C8B4 /* Frameworks */,
-				892BA488218B3EE90020C8B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				892BA48C218B3EE90020C8B4 /* PBXTargetDependency */,
-			);
-			name = Databasator3000Tests;
-			productName = Databasator3000Tests;
-			productReference = 892BA48A218B3EE90020C8B4 /* Databasator3000Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		892BA494218B3EE90020C8B4 /* Databasator3000UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 892BA4A4218B3EE90020C8B4 /* Build configuration list for PBXNativeTarget "Databasator3000UITests" */;
-			buildPhases = (
-				892BA491218B3EE90020C8B4 /* Sources */,
-				892BA492218B3EE90020C8B4 /* Frameworks */,
-				892BA493218B3EE90020C8B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				892BA497218B3EE90020C8B4 /* PBXTargetDependency */,
-			);
-			name = Databasator3000UITests;
-			productName = Databasator3000UITests;
-			productReference = 892BA495218B3EE90020C8B4 /* Databasator3000UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -206,17 +109,9 @@
 					892BA472218B3EE20020C8B4 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					892BA489218B3EE90020C8B4 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 892BA472218B3EE20020C8B4;
-					};
-					892BA494218B3EE90020C8B4 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 892BA472218B3EE20020C8B4;
-					};
 				};
 			};
-			buildConfigurationList = 892BA46E218B3EE20020C8B4 /* Build configuration list for PBXProject "Databasator3000" */;
+			buildConfigurationList = 892BA46E218B3EE20020C8B4 /* Build configuration list for PBXProject "Database_parser" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,9 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				892BA472218B3EE20020C8B4 /* Databasator3000 */,
-				892BA489218B3EE90020C8B4 /* Databasator3000Tests */,
-				892BA494218B3EE90020C8B4 /* Databasator3000UITests */,
+				892BA472218B3EE20020C8B4 /* Database_parser */,
 			);
 		};
 /* End PBXProject section */
@@ -245,20 +138,6 @@
 				892BA481218B3EE90020C8B4 /* Assets.xcassets in Resources */,
 				89AE620C219AFD9300F98EE7 /* databaze.csv in Resources */,
 				892BA47C218B3EE20020C8B4 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		892BA488218B3EE90020C8B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		892BA493218B3EE90020C8B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,36 +156,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		892BA486218B3EE90020C8B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				892BA48F218B3EE90020C8B4 /* Databasator3000Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		892BA491218B3EE90020C8B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				892BA49A218B3EE90020C8B4 /* Databasator3000UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		892BA48C218B3EE90020C8B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 892BA472218B3EE20020C8B4 /* Databasator3000 */;
-			targetProxy = 892BA48B218B3EE90020C8B4 /* PBXContainerItemProxy */;
-		};
-		892BA497218B3EE90020C8B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 892BA472218B3EE20020C8B4 /* Databasator3000 */;
-			targetProxy = 892BA496218B3EE90020C8B4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		892BA47A218B3EE20020C8B4 /* Main.storyboard */ = {
@@ -448,7 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F9SQL5NE4J;
-				INFOPLIST_FILE = Databasator3000/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Database_parser/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F9SQL5NE4J;
-				INFOPLIST_FILE = Databasator3000/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Database_parser/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,92 +328,10 @@
 			};
 			name = Release;
 		};
-		892BA4A2218B3EE90020C8B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9SQL5NE4J;
-				INFOPLIST_FILE = Databasator3000Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dont-have.Databasator3000Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Databasator3000.app/Databasator3000";
-			};
-			name = Debug;
-		};
-		892BA4A3218B3EE90020C8B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9SQL5NE4J;
-				INFOPLIST_FILE = Databasator3000Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dont-have.Databasator3000Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Databasator3000.app/Databasator3000";
-			};
-			name = Release;
-		};
-		892BA4A5218B3EE90020C8B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9SQL5NE4J;
-				INFOPLIST_FILE = Databasator3000UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dont-have.Databasator3000UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Databasator3000;
-			};
-			name = Debug;
-		};
-		892BA4A6218B3EE90020C8B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9SQL5NE4J;
-				INFOPLIST_FILE = Databasator3000UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dont-have.Databasator3000UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Databasator3000;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		892BA46E218B3EE20020C8B4 /* Build configuration list for PBXProject "Databasator3000" */ = {
+		892BA46E218B3EE20020C8B4 /* Build configuration list for PBXProject "Database_parser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				892BA49C218B3EE90020C8B4 /* Debug */,
@@ -572,29 +340,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		892BA49E218B3EE90020C8B4 /* Build configuration list for PBXNativeTarget "Databasator3000" */ = {
+		892BA49E218B3EE90020C8B4 /* Build configuration list for PBXNativeTarget "Database_parser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				892BA49F218B3EE90020C8B4 /* Debug */,
 				892BA4A0218B3EE90020C8B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		892BA4A1218B3EE90020C8B4 /* Build configuration list for PBXNativeTarget "Databasator3000Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				892BA4A2218B3EE90020C8B4 /* Debug */,
-				892BA4A3218B3EE90020C8B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		892BA4A4218B3EE90020C8B4 /* Build configuration list for PBXNativeTarget "Databasator3000UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				892BA4A5218B3EE90020C8B4 /* Debug */,
-				892BA4A6218B3EE90020C8B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

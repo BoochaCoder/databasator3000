@@ -32,9 +32,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
     }
-
-
-    
     
     //////////// CORE DATA ///////////
     
